@@ -12,9 +12,9 @@ ALERT_FILE = "/var/ossec/logs/alerts/alerts.json"
 
 SMTP_SERVER = "smtp.gmail.com"
 SMTP_PORT = 587
-SMTP_USER = "your_mail"
+SMTP_USER = "alert@yourdomain.com"
 SMTP_PASSWORD = "your_passwd"
-RECEIVER_EMAIL = "your_mail"
+RECEIVER_EMAIL = "alert@yourdomain.com"
 
 AI_MIN_RULE_LEVEL = 3   # Only alerts with level >= 3 are analyzed by AI
 
